@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(45, 39, 39);
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    width:60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 228, 180);
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.left {
+
+    align-content: left;
+    justify-content: left;
+
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.right {
+
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 4px;
+}
+
+img {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.flexrow {
+    display: flex;
+    justify-content: center;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+button {
+    color: rgb(234, 234, 241);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: red;
+    font-family: bold;
+    font-size: medium;
+    border-radius: 10px;
+    
+
+
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px rgb(8, 202, 134);
+    background-color: rgb(237, 141, 141);
+}
+
+
+.buttongroup {
+    display: flex;
+    justify-content: left;
+    gap: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(244, 246, 248);
+    font-size: 60px;
+    text-shadow: 10px;
+    text-shadow: 5px;
+}
+
+p {
+    color: white;
+    font: size 50px;
+}
+
+.small-top-pic {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.small-bottom-pic {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
